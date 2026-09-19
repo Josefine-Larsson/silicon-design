@@ -1,0 +1,41 @@
+
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #1e1e1e;
+}
+/* ===== ARTICLE PAGE ===== */
+.article-page {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 80px;
+}
+.article-intro {
+  max-width: 650px;
+  margin-bottom: 48px;
+}
+.article-intro h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+.article-intro p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+.article-hero-image {
+    width: 100%;
+    height: auto;
+    display:block;
+}
+
+.article-images {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+}
+.article-images img {
+  width: calc(50% - 12px);
+  height: 320px;
+  object-fit: cover;
+}
