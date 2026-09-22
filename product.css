@@ -194,12 +194,12 @@ body{
     font-size: 18px;
 }
 
-@media /max-width: 768px) {
+@media (max-width: 768px) {
     .product-section {
         flex-direction: column;
     }
     .product-grid {
-        grid-template-column: 1fr;
+        grid-template-columns: 1fr;
     }
 
     .footer-content {
