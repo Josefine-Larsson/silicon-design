@@ -1,0 +1,277 @@
+/* HERO */
+
+.hero {
+    background-color: #f3f6ff;
+    overflow: hidden;
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 1296px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 24px 0;
+}
+
+.hero-text {
+    width: 45%;
+    max-width: 520px;
+}
+
+.hero-text h1 {
+    font-size: 56px;
+    line-height: 1.1;
+    margin-bottom: 24px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 32;
+}
+
+.hero-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.store-button img {
+    width: 180px;
+    height: 52px;
+    object-fit: contain;
+    display: block;
+}
+
+.navbar {
+    max-width: 1296px;
+    margin: 0 auto;
+    padding: 16px 24px;
+}
+
+.navbar img {
+    width: 122px;
+    height: 44px;
+    object-fit: contain;
+    display: block;
+}
+
+.dark-mode {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.dark-mode span {
+    font-size: 16px;
+}
+
+.switch {
+    position: relative;
+    width: 46px;
+    height: 24px;
+}
+
+.switch input {
+    width: 46px;
+    height: 24px;
+    appearance: none;
+    background-color: #9397ad;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.switch input::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1296px;
+    margin: 0 auto;
+    padding: 16px 24px;
+}
+
+.dark-mode {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.signin-button {
+    background-color: #6366f1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.hero-text h1 {
+    font-family: Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* FEATURES */
+
+.features {
+    padding: 80px 24px;
+    background-color: #ffffff;
+}
+
+.features-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.features h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 60px;
+}
+
+.feature-icon {
+    width: 28px;
+    height: 28px;
+    padding: 12px;
+    background-color: #f3f0ff;
+    border-radius: 8px;
+}
+
+.feature-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.feature-card h3 {
+    font-size: 20px;
+    margin: 0 0 8px;
+}
+
+.feature-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.features-content {
+    max-width: 1296px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.features-image img {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    display: block;
+}
+
+.features-text {
+    width: 60%;
+}
+
+.features-text h2 {
+    text-align: left;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .hero {
+        min-height: auto;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+        padding: 48px 24px 0;
+    }
+
+    .hero-text {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .hero-image {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .hero-image img {
+        max-width: 400px;
+    }
+
+    .features {
+        padding: 60px 24px;
+    }
+
+    .features h2 {
+        font-size: 32px;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .feature-card {
+        text-align: center;
+    }
+}
+
